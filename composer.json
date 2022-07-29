@@ -1,0 +1,23 @@
+{
+    "name": "stanislav/hexlet-tests",
+    "autoload": {
+        "psr-4": {
+            "Stanislav\\HexletTests\\": "src/"
+        },
+        "files": [
+            "src/StringUtils.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Stanislav Shein",
+            "email": "firmvw@gmail.com"
+        }
+    ],
+    "require": {
+        "webmozart/assert": "^1.11"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
